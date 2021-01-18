@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="password" value="Phish@123"/>
+    <parameter name="quantity" value="3"/>
+    <parameter name="email" value="phishing@springct.com"/>
+    <classes>
+      <class name="testpackage.practiceTest">
+        <methods>
+          <include name="womensSection"/>
+          <include name="cartPage" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testpackage.practiceTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

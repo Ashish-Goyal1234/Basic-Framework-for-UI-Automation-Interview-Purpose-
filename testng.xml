@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="email" value="phishing@springct.com" />
+		<parameter name="password" value="Phish@123" />
+		<parameter name="quantity" value="3" />
+		<classes>
+			<class name="testpackage.practiceTest" />
+		</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
